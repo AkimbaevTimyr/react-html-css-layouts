@@ -8,12 +8,17 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import ConfirmationVerification from './components/ConfirmationVerification/ConfirmationVerification';
+import VerificationPhone from './components/VerificationPhone/VerificationPhone';
 
 
 const router = createBrowserRouter([
   {
     path: "/confirmationVerification",
     element: <ConfirmationVerification />,
+  },
+  {
+    path: "/verificationPhone",
+    element: <VerificationPhone />,
   },
 ]);
 

@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.verification_phone {
+    max-width: 480px;
+    width: 100%;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.25);
+
+    &_header {
+        width: 100%;
+        max-width: 196px;
+        color: #222;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 0px 0px 30px 0px;
+    }
+
+    &_desc {
+        color: rgba(34, 34, 34, 0.75);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px;
+        margin: 0px 0px 30px 0px;
+    }
+
+    &_input {
+        margin: 0px 0px 30px 0px;
+        display: flex;
+        justify-content: space-between;
+
+        &_group {
+            width: 48px;
+            height: 48px;
+            margin-right: 16px;
+            border-radius: 8px;
+            text-align: center;
+            border: 0.2px solid rgba(34, 34, 34, 0.25);
+            background: #F0F1F6;
+            box-shadow: 0px 0px 4px 0px rgba(34, 34, 34, 0.25) inset;
+
+            &:focus {
+                border: 1px solid blue;
+            }
+        }
+
+        &_group:last-child {
+            margin-right: 0;
+        }
+
+    }
+
+    &_again {
+        color: rgba(34, 34, 34, 0.75);
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 14px;
+        margin: 0px 0px 30px 0px;
+
+        a {
+            cursor: pointer;
+            color: rgba(13, 83, 252, 0.75);
+            text-decoration: none;
+        }
+    }
+
+    &_button {
+        max-width: 384px;
+        width: 100%;
+        margin-bottom: 30px;
+        padding: 12px 20px;
+        color: white;
+        border: 0;
+        border-radius: 8px;
+        background: #0D53FC;
+        box-shadow: 0px 4px 4px 0px rgba(13, 83, 252, 0.25);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 16px;
+        cursor: pointer;
+    }
+
+    &_bottom {
+        color: rgba(34, 34, 34, 0.50);
+        text-align: center;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16px;
+        padding: 12px 20px;
+        border-radius: 8px;
+        border: 0.5px solid rgba(34, 34, 34, 0.30);
+        cursor: pointer;
+    }
+}
